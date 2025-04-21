@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@layer utilities {
+  @font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Light.otf') format('otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Medium.otf') format('otf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Heavy.otf') format('otf');
+    font-weight: 700;
+}
+.font-avenir{
+  font-family: 'Avenir';
+}
+body{
+  font-family: "Onest", sans-serif;
+}
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+}
+.custom-gradient{
+  background: (0deg, #171D45, #171D45), radial-gradient(84.7% 211.17% at 15.57% 0%, #7595FF 0%, rgba(117, 149, 255, 0) 19.99%);
+  height: 100%;
+  width: 100%;
+}
+}
+@media (max-width:992px)  {
+   
+}
