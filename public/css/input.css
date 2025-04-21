@@ -24,6 +24,7 @@ body{
 .container{
     max-width: 1158px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .custom-gradient{
   background: (0deg, #171D45, #171D45), radial-gradient(84.7% 211.17% at 15.57% 0%, #7595FF 0%, rgba(117, 149, 255, 0) 19.99%);

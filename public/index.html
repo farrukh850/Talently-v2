@@ -26,32 +26,32 @@
     </header>
     <main>
         <!-- Banner -->
-        <section class="min-h-[743px] relative pt-[10%]">
+        <section class="min-h-auto lg:min-h-[743px] relative lg:pt-[10%] py-10">
             <div class="container relative z-50">
                 <div class="flex max-w-[780px] mx-auto flex-col items-center">
-                    <h1 class="text-[68px] text-white font-bold leading-[120%] mb-5">Expert-Led, AI Ready</h1>
+                    <h1 class="text-4xl lg:text-[68px] text-white font-bold leading-[120%] mb-5">Expert-Led, AI Ready</h1>
                     <p class="text-lg text-[#A7ADBE] font-medium leading-[150%]">Train your AI with domain experts in the loop</p>
                     <div class="flex items-center gap-5 mt-[22px]">
-                        <a href="#" class="py-4 px-[30px] rounded-[100px] text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]" style="background: linear-gradient(142.29deg, #0068EC 21.8%, #00BBF9 73.22%);">Browse Experts</a>
-                        <a href="#" class="py-4 px-[30px] rounded-[100px] text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]">Apply for work</a>
+                        <a href="#" class="py-4 px-5 lg:px-[30px] rounded-[100px] text-sm lg:text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]" style="background: linear-gradient(142.29deg, #0068EC 21.8%, #00BBF9 73.22%);">Browse Experts</a>
+                        <a href="#" class="py-4 px-[30px] rounded-[100px] text-sm lg:text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]">Apply for work</a>
                     </div>
                 </div>
-                <div class="flex max-w-[780px] mx-auto  flex-col gap-3.5 mt-[106px] items-center">
+                <div class="flex max-w-[780px] mx-auto flex-col gap-3.5 mt-[106px] items-center">
                 <p class="text-lg text-[#A7ADBE] leading-[150%]">Trusted by leading AI labs, enterprises, and research teams</p>
-                <div class="grid grid-cols-10 items-center gap-11">
-                    <div class="col-span-2 w-full h-[29px]">
+                <div class="grid grid-cols-12 lg:grid-cols-10 justify-center items-center gap-4 lg:gap-11">
+                    <div class="col-span-4 lg:col-span-2 w-full h-[29px]">
                         <img src="images/scale.svg" class="h-full object-contain w-full mx-auto" alt="Scale Logo">
                     </div>
-                    <div class="col-span-2 w-full h-[29px]">
+                    <div class="col-span-4 lg:col-span-2 w-full h-[29px]">
                         <img src="images/perplexity.svg" class="h-full object-contain w-full mx-auto" alt="Perplexity Logo">
                     </div>
-                    <div class="col-span-2 w-full h-[29px]">
+                    <div class="col-span-4 lg:col-span-2 w-full h-[29px]">
                         <img src="images/talently.svg" class="h-full object-contain w-full mx-auto" alt="Talently Logo">
                     </div>
-                    <div class="col-span-2 w-full h-[29px]">
+                    <div class="col-span-4 lg:col-span-2 w-full h-[29px]">
                         <img src="images/remotebase.svg" class="h-full object-contain w-full mx-auto" alt="Remotebase Logo">
                     </div>
-                    <div class="col-span-2 w-full h-[29px]">
+                    <div class="col-span-4 lg:col-span-2 w-full h-[29px]">
                         <img src="images/migrately.svg" class="h-full object-contain w-full mx-auto" alt="Migrately Logo">
                     </div>
                 </div>
@@ -64,7 +64,7 @@
         <!-- Train with Talent -->
         <section class="pb-18">
             <div class="container">
-                <div class="min-h-[560px] flex items-center gap-14 rounded-[20px] overflow-hidden py-[74px] pl-[77px] relative">
+                <div class="min-h-[560px] flex flex-col lg:flex-row items-center gap-14 rounded-[20px] overflow-hidden lg:py-[74px] lg:pl-[77px] p-10 relative">
                     <!-- Gradient Border Effect -->
                     <div class="absolute inset-0 rounded-[20px] p-px z-0"
                          style="background: 
@@ -73,7 +73,7 @@
                     </div>
                     
                     <!-- Content -->
-                    <div class="w-1/2 relative z-10">
+                    <div class="lg:w-1/2 w-full relative z-10">
                       <h2 class="text-[#A7ADBE] text-xl leading-[150%] mb-[22px]">Train with Talent</h2>
                       <h3 class="text-white text-[40px] font-bold leading-[120%] mb-3">Behind every smart model is smarter human input.</h3>
                       <p class="text-[#A7ADBE] text-base font-medium leading-[150%] mb-3">
@@ -82,8 +82,8 @@
                     </div>
                     
                     <!-- Video -->
-                    <div class="absolute right-0 left-auto top-1 bottom-1 w-1/2 z-10">
-                      <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-contain">
+                    <div class="relative lg:absolute lg:right-0 lg:left-auto lg:top-2 lg:bottom-2 w-full lg:w-1/2 z-10">
+                      <video autoplay muted loop playsinline class="lg:absolute lg:inset-0 w-full h-full object-contain">
                         <source src="videos/globe-video.mp4" type="video/mp4">
                       </video>
                     </div>
@@ -91,17 +91,17 @@
             </div>
         </section>
         <!-- How it Works -->
-        <section class="py-21 relative">
+        <section class="py-5 lg:py-21 relative">
         <div class="container relative z-50">
             <div class="flex flex-col max-w-[551px] mx-auto text-center relative">
                 <span class="text-[#A7ADBE] relative z-10 font-medium text-xl leading-[150%]">How it works</span>
-                <h3 class="text-white relative z-10 text-5xl font-bold leading-[120%]">Explore, pick and collaborate</h3>
+                <h3 class="text-white relative z-10 text-3xl lg:text-5xl font-bold leading-[120%]">Explore, pick and collaborate</h3>
                 <div class="absolute top-0 right-0 left-0">
                     <img src="images/dots.svg" alt="Dots">
                 </div>
             </div>
             <div class="grid grid-cols-12 items-stretch mt-8 gap-5">
-                <div class="col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
+                <div class="col-span-12 lg:col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
                     <!-- Gradient Border Effect -->
                     <div class="absolute inset-0 rounded-[20px] p-px z-0"
                          style="background: 
@@ -116,7 +116,7 @@
                         <p class="text-[#D3D3D6] text-base leading-[130%] font-medium mt-3">Use filters to search by domain, skill, or availability. See verified profiles, experience, and areas of focus.</p>
                     </div>
                 </div>
-                <div class="col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
+                <div class="col-span-12 lg:col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
                     <!-- Gradient Border Effect -->
                     <div class="absolute inset-0 rounded-[20px] p-px z-0"
                          style="background: 
@@ -131,7 +131,7 @@
                         <p class="text-[#D3D3D6] text-base leading-[130%] font-medium mt-3">There’s no application process or delays; you can choose the expert you need. </p>
                     </div>
                 </div>
-                <div class="col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
+                <div class="col-span-12 lg:col-span-4 pt-12 pb-18 px-10 border border-white/20 rounded-[20px] relative">
                     <!-- Gradient Border Effect -->
                     <div class="absolute inset-0 rounded-[20px] p-px z-0"
                          style="background: 
@@ -153,52 +153,42 @@
         </div>
         </section>
         <!-- Who you’ll find -->
-        <section class="py-21">
+        <section class="py-5 lg:py-21">
             <div class="container">
-                <div class="min-h-[685px] gap-[148px] overflow-hidden relative custom-gradient flex items-center">
-                    <div class="max-w-[485px]">
-                        <h3 class="text-white text-5xl font-bold leading-[120%] mb-2">Who you’ll find</h3>
+                <div class="min-h-[685px] gap-[148px] overflow-hidden relative custom-gradient flex items-center flex-col lg:flex-row">
+                    <div class="max-w-full lg:max-w-[485px]">
+                        <h3 class="text-white text-3xl lg:text-5xl font-bold leading-[120%] mb-2">Who you’ll find</h3>
                         <p class="text-[#A7ADBE] text-lg font-medium leading-[150%] mb-3">Talently connects you with a global network of domain experts, including doctors, lawyers, analysts, engineers, and more who help train, review, and fine-tune your models. Acting as annotators and reviewers, they bring the precision and domain depth your AI needs to perform in real-world scenarios.
                         </p>
                         <hr class="my-9 border-[#333A6B]">
                         <div class="grid grid-cols-12 items-center gap-5">
-                            <div class="col-span-6">
+                            <div class="col-span-12 lg:col-span-6">
                                 <h6 class="text-base leading-[130%] text-white"><b class="block">Medical Professionals</b> Including physicians and specialists</h6>
                             </div>
-                            <div class="col-span-6">
+                            <div class="col-span-12 lg:col-span-6">
                                 <h6 class="text-base leading-[130%] text-white"><b class="block">Legal Experts </b>Including contract analysts and legal researchers</h6>
                             </div>
-                            <div class="col-span-6">
+                            <div class="col-span-12 lg:col-span-6">
                                 <h6 class="text-base leading-[130%] text-white"><b class="block">Finance Professionals</b> Including auditors, analysts</h6>
                             </div>
-                            <div class="col-span-6">
+                            <div class="col-span-12 lg:col-span-6">
                                 <h6 class="text-base leading-[130%] text-white"><b class="block">Engineers and scientists</b> with domain expertise across technical fields</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="absolute right-0 left-auto top-0 bottom-0 w-1/2 h-full bg-[#00020F] rounded-[20px] border border-[#171D45]">
-                        <video 
-                        autoplay
-                        muted
-                        loop
-                        playsinline
-                        class="absolute inset-0 w-full h-full object-contain z-50">
-                        <source src="videos/who-find-video.mp4"  type="video/mp4">
-                      </video>
-                      <div class="absolute inset-0 rounded-[20px] p-px z-0"
-                         style="background: 
-                                      radial-gradient(84.7% 211.17% at 15.57% 0%, #7595FF 0%, rgba(117, 149, 255, 0) 19.99%), linear-gradient(0deg, #171D45, #171D45)">
-                      <div class="w-full h-full bg-[#00020F] rounded-[20px]"></div>
-                    </div>
-                    </div>
+                    <div class="relative lg:absolute lg:right-0 lg:left-auto lg:top-2 lg:bottom-2 w-full lg:w-1/2 z-10">
+                        <video autoplay muted loop playsinline class="lg:absolute lg:inset-0 w-full h-full object-contain">
+                          <source src="videos/who-find-video.mp4" type="video/mp4">
+                        </video>
+                      </div>
                 </div>
             </div>
         </section>
         <!-- For Experts -->
         <section class="py-32">
             <div class="container">
-                <div class="flex items-center gap-31">
-                    <div class="max-w-[507px] flex-1 px-10 py-22 border border-[#333A6B] rounded-[20px] mb-1 relative">
+                <div class="flex flex-col lg:flex-row items-center gap-5 lg:gap-31">
+                    <div class="max-w-full lg:max-w-[507px] flex-1 px-10 py-22 border border-[#333A6B] rounded-[20px] mb-1 relative">
                         <div class="relative z-50">
                             <h5 class="text-white font-bold text-2xl leading-[150%]">Overall Score</h5>
                             <p class="text-lg text-white leading-[130%]">Represents the candidate’s cumulative score based on performance across all assessment areas.</p>
@@ -257,15 +247,15 @@
                     </div>
                     <div class="flex-1">
                         <span class="text-xl text-[#A7ADBE] leading-[150%] font-medium mb-2">For Experts</span>
-                        <h2 class="text-5xl text-white leading-[120%] font-medium">Build your expert profile. We’ll handle the rest.</h2>
+                        <h2 class="text-3xl lg:text-5xl text-white leading-[120%] font-medium">Build your expert profile. We’ll handle the rest.</h2>
                         <p class="text-lg text-[#A7ADBE] leading-[150%] font-medium mb-2">Join Talently to work with leading AI labs and contribute to the next generation of intelligent systems.</p>
                         <hr class="my-6 border-[#333A6B]">
                         <div class="grid grid-cols-12 items-center gap-8">
-                            <div class="col-span-6 flex items-center gap-3">
+                            <div class="col-span-12 lg:col-span-6 flex items-center gap-3">
                                 <img src="images/check.svg" alt="Check Icon">
                                 <p class="text-sm text-white font-bold leading-[120%]">Hourly work, paid fairly</p>
                             </div>
-                            <div class="col-span-6 flex items-center gap-3">
+                            <div class="col-span-12 lg:col-span-6 flex items-center gap-3">
                                 <img src="images/check.svg" alt="Check Icon">
                                 <p class="text-sm text-white font-bold leading-[120%]">Flexible, remote opportunities</p>
                             </div>
@@ -282,14 +272,14 @@
             </div>
         </section>
         <!-- Build smarter with Human Data. -->
-        <section class="mx-[59px] pb-34">
-            <div class="py-25 px-10 border border-[#333A6B] rounded-[20px] relative min-h-[640px] z-50">
+        <section class="mx-4 pb-5 lg:mx-[59px] lg:pb-34">
+            <div class="px-5 pt-10 lg:py-25 lg:px-10 border border-[#333A6B] rounded-[20px] relative min-h-[400px] lg:min-h-[640px] z-50">
                 <div class="flex max-w-[780px] mx-auto flex-col items-center z-50 relative">
-                    <h1 class="text-5xl text-white font-bold leading-[120%] mb-5 mx-auto text-center">Build smarter with <br> Human Data.</h1>
-                    <p class="text-lg text-[#A7ADBE] font-medium leading-[150%]">Hire experts or become one, all in one place.</p>
+                    <h1 class="text-3xl lg:text-5xl text-white font-bold leading-[120%] mb-5 mx-auto text-center">Build smarter with <br> Human Data.</h1>
+                    <p class="text-lg text-[#A7ADBE] font-medium leading-[150%] text-center lg:text-start">Hire experts or become one, all in one place.</p>
                     <div class="flex items-center gap-5 mt-[22px]">
-                        <a href="#" class="py-4 px-[30px] rounded-[100px] text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]" style="background: linear-gradient(142.29deg, #0068EC 21.8%, #00BBF9 73.22%);">Browse Experts</a>
-                        <a href="#" class="py-4 px-[30px] rounded-[100px] text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]">Apply for work</a>
+                        <a href="#" class="py-4 px-4 lg:px-[30px] rounded-[100px] text-sm lg:text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]" style="background: linear-gradient(142.29deg, #0068EC 21.8%, #00BBF9 73.22%);">Browse Experts</a>
+                        <a href="#" class="py-4 px-4 lg:px-[30px] rounded-[100px] text-sm lg:text-base text-white leading-[150%] shadow-[inset_0_1px_5px_0_rgba(255,255,255,0.3)]">Apply for work</a>
                     </div>
                 </div>
                 <div class="absolute bottom-0 left-1/2 -translate-x-1/2 z-50">
@@ -309,7 +299,7 @@
             </div>
         </section>
         <!-- Footer -->
-        <footer class="py-11 max-2xl:px-5">
+        <footer class="py-5 lg:py-11 max-2xl:px-5">
             <div class="container">
                 <div class="flex items-center max-md:flex-col max-md:items-center  max-md:space-y-4 justify-between pb-7">
                     <a href="index.html"><img src="images/logo.svg" alt="Footer Icon"></a>
@@ -321,7 +311,7 @@
                     </ul>
                 </div>
                 <img src="images/footer-border.svg" alt="Border">
-                <div class="flex items-center max-md:flex-col max-md:items-center  max-md:space-y-4 justify-center gap-12 pt-9">
+                <div class="flex items-center max-md:flex-col max-md:items-center  max-md:space-y-4 justify-center gap-12 pt-4 lg:pt-9">
                     <small class="text-white">© Copyrights 2023 . All rights reserved. </small>
                     <ul class="flex items-center space-x-10">
                         <li><a href="#" class="text-xs lg:text-sm text-white">Privacy Policy</a></li>
