@@ -1,3 +1,5 @@
+AOS.init();
+
 // Top navbar toggle 
 function toggleMenu() {
     const menu = document.getElementById("mobile-menu");
