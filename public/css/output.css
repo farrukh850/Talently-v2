@@ -199,26 +199,17 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-1 {
-    top: calc(var(--spacing) * 1);
-  }
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
-  .bottom-1 {
-    bottom: calc(var(--spacing) * 1);
-  }
   .left-0 {
     left: calc(var(--spacing) * 0);
   }
   .left-1\/2 {
     left: calc(1/2 * 100%);
-  }
-  .left-auto {
-    left: auto;
   }
   .z-0 {
     z-index: 0;
@@ -229,17 +220,8 @@
   .z-50 {
     z-index: 50;
   }
-  .col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-  .col-span-3 {
-    grid-column: span 3 / span 3;
-  }
   .col-span-4 {
     grid-column: span 4 / span 4;
-  }
-  .col-span-6 {
-    grid-column: span 6 / span 6;
   }
   .col-span-12 {
     grid-column: span 12 / span 12;
@@ -262,17 +244,8 @@
       max-width: 96rem;
     }
   }
-  .mx-0 {
-    margin-inline: calc(var(--spacing) * 0);
-  }
   .mx-4 {
     margin-inline: calc(var(--spacing) * 4);
-  }
-  .mx-5 {
-    margin-inline: calc(var(--spacing) * 5);
-  }
-  .mx-\[59px\] {
-    margin-inline: 59px;
   }
   .mx-auto {
     margin-inline: auto;
@@ -334,9 +307,6 @@
   .hidden {
     display: none;
   }
-  .table {
-    display: table;
-  }
   .h-1 {
     height: calc(var(--spacing) * 1);
   }
@@ -358,20 +328,11 @@
   .min-h-\[560px\] {
     min-height: 560px;
   }
-  .min-h-\[640px\] {
-    min-height: 640px;
-  }
   .min-h-\[685px\] {
     min-height: 685px;
   }
-  .min-h-\[743px\] {
-    min-height: 743px;
-  }
   .min-h-auto {
     min-height: auto;
-  }
-  .w-1\/2 {
-    width: calc(1/2 * 100%);
   }
   .w-9 {
     width: calc(var(--spacing) * 9);
@@ -388,12 +349,6 @@
   .w-full {
     width: 100%;
   }
-  .max-w-\[485px\] {
-    max-width: 485px;
-  }
-  .max-w-\[507px\] {
-    max-width: 507px;
-  }
   .max-w-\[551px\] {
     max-width: 551px;
   }
@@ -403,24 +358,12 @@
   .max-w-full {
     max-width: 100%;
   }
-  .min-w-full {
-    min-width: 100%;
-  }
   .flex-1 {
     flex: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .resize {
-    resize: both;
-  }
-  .grid-cols-10 {
-    grid-template-columns: repeat(10, minmax(0, 1fr));
   }
   .grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -458,17 +401,11 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
-  .gap-11 {
-    gap: calc(var(--spacing) * 11);
-  }
   .gap-12 {
     gap: calc(var(--spacing) * 12);
   }
   .gap-14 {
     gap: calc(var(--spacing) * 14);
-  }
-  .gap-31 {
-    gap: calc(var(--spacing) * 31);
   }
   .gap-\[148px\] {
     gap: 148px;
@@ -511,9 +448,6 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-\[\#171D45\] {
-    border-color: #171D45;
   }
   .border-\[\#333A6B\] {
     border-color: #333A6B;
@@ -581,20 +515,11 @@
   .py-11 {
     padding-block: calc(var(--spacing) * 11);
   }
-  .py-21 {
-    padding-block: calc(var(--spacing) * 21);
-  }
   .py-22 {
     padding-block: calc(var(--spacing) * 22);
   }
-  .py-25 {
-    padding-block: calc(var(--spacing) * 25);
-  }
   .py-32 {
     padding-block: calc(var(--spacing) * 32);
-  }
-  .py-\[74px\] {
-    padding-block: 74px;
   }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
@@ -602,17 +527,11 @@
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
-  .pt-9 {
-    padding-top: calc(var(--spacing) * 9);
-  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
-  }
-  .pt-\[10\%\] {
-    padding-top: 10%;
   }
   .pr-7 {
     padding-right: calc(var(--spacing) * 7);
@@ -626,17 +545,11 @@
   .pb-18 {
     padding-bottom: calc(var(--spacing) * 18);
   }
-  .pb-34 {
-    padding-bottom: calc(var(--spacing) * 34);
-  }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
   }
   .pl-6\.5 {
     padding-left: calc(var(--spacing) * 6.5);
-  }
-  .pl-\[77px\] {
-    padding-left: 77px;
   }
   .text-center {
     text-align: center;
@@ -652,10 +565,6 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
-  }
-  .text-5xl {
-    font-size: var(--text-5xl);
-    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-base {
     font-size: var(--text-base);
@@ -682,9 +591,6 @@
   }
   .text-\[40px\] {
     font-size: 40px;
-  }
-  .text-\[68px\] {
-    font-size: 68px;
   }
   .leading-\[100\%\] {
     --tw-leading: 100%;
@@ -726,16 +632,9 @@
   .text-white {
     color: var(--color-white);
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .shadow-\[inset_0_1px_5px_0_rgba\(255\,255\,255\,0\.3\)\] {
     --tw-shadow: inset 0 1px 5px 0 var(--tw-shadow-color, rgba(255,255,255,0.3));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .max-2xl\:px-5 {
     @media (width < 96rem) {
@@ -771,11 +670,6 @@
       inset: calc(var(--spacing) * 0);
     }
   }
-  .lg\:top-1 {
-    @media (width >= 64rem) {
-      top: calc(var(--spacing) * 1);
-    }
-  }
   .lg\:top-2 {
     @media (width >= 64rem) {
       top: calc(var(--spacing) * 2);
@@ -784,11 +678,6 @@
   .lg\:right-0 {
     @media (width >= 64rem) {
       right: calc(var(--spacing) * 0);
-    }
-  }
-  .lg\:bottom-1 {
-    @media (width >= 64rem) {
-      bottom: calc(var(--spacing) * 1);
     }
   }
   .lg\:bottom-2 {
@@ -824,11 +713,6 @@
   .lg\:min-h-\[640px\] {
     @media (width >= 64rem) {
       min-height: 640px;
-    }
-  }
-  .lg\:min-h-\[685px\] {
-    @media (width >= 64rem) {
-      min-height: 685px;
     }
   }
   .lg\:min-h-\[743px\] {
@@ -1070,11 +954,6 @@
   syntax: "*";
   inherits: false;
   initial-value: 0 0 #0000;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-space-y-reverse {
   syntax: "*";
